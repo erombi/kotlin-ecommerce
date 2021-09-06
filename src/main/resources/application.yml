@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: nossaCasaDoCodigo
+datasources:
+  default:
+    url: ${DB_URL:`jdbc:postgresql://localhost:5432/kotlin-casa-codigo`}
+    driverClassName: org.postgresql.Driver
+    username: ${DB_USERNAME:`casa-codigo`}
+    password: ${DB_PASSWORD:`password`}
+
+jpa.default.properties.hibernate.hbm2ddl.auto: update
