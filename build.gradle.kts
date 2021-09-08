@@ -40,6 +40,8 @@ dependencies {
     implementation("io.micronaut:micronaut-validation")
     implementation("org.postgresql:postgresql:42.2.18")
     implementation("io.micronaut.xml:micronaut-jackson-xml")
+    implementation("org.mockito:mockito-core:3.8.0")
+    testImplementation("com.h2database:h2")
 
     runtimeOnly("com.fasterxml.jackson.module:jackson-module-kotlin")
 
